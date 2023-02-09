@@ -139,7 +139,9 @@ progress::-webkit-progress-value {
 
     .left-content {
         border-right: none;
-        border-bottom: 1px solid #dedddd;;
+        border-bottom: 1px solid #dedddd;
+        margin: 0;
+        padding: 0;
         padding-bottom: 2em;
     }
 
@@ -150,6 +152,15 @@ progress::-webkit-progress-value {
 
     ul.navigation {
         padding: 0 10%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .right-content {
+        margin: 0;
+        padding: 0;
     }
 
 }
